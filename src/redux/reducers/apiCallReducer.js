@@ -1,6 +1,6 @@
 import { ACTION_TYPE } from "../constants";
 
-const initialData = null;
+const initialData = { userId: 1, userName: "abc" };
 
 export const apiCallReducer = (data = initialData, action) => {
   switch (action.type) {
